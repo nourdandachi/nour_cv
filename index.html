@@ -5,13 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nour CV</title>
   <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f9fafb;
+      color: #333;
+      margin: 0;
+    }
     nav{
       background-color: rgb(255, 255, 255);
       position: sticky;
     }
 
-    #container-nav{
-      max-width: fit-content;  /* */ 
+    #container-nav{ 
       margin: auto;
       padding: 16px;
       display: flex;
@@ -27,6 +32,33 @@
     a:hover{
       color: #004d40 ;
     }
+
+    #main-container{
+      width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px;
+      
+    }
+
+    section{
+      background-color: white;
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+    h2{
+      color: #00796b;
+      font-weight: 700;
+      border-bottom-color:#e0f2f1  ;
+      border-bottom-width: 2px;
+      border-bottom-style: solid;
+      margin-bottom: 15px;
+    }
+    p{
+      margin-bottom: 5px;
+    }
+
   </style>
 </head>
 <body>
@@ -39,7 +71,7 @@
       <a href="#skills">Skills</a>
     </div>
   </nav>
-  <div class="main-container">
+  <div id="main-container">
     <section id="about">
       <!-- <img src="img/img2.jpg"> -->
       <p>Hello! I'm Nour El Dandachi, a Computer Science student at Beirut Arab University with a passion for coding, creativity, and community. I love blending tech and art through projects like my handmade business, and I’m always eager to explore data, solve problems, and collaborate on meaningful initiatives.</p>
