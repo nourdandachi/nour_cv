@@ -29,9 +29,12 @@
       font-weight: 600;
       color: #00796b;
       margin: 20px;
+      border-radius: 6px;
+      padding: 5px;
     }
     a:hover{
       color: #004d40 ;
+      background-color: #e0f2f1;
     }
 
     #main-container{
@@ -115,30 +118,18 @@
         height: 150px;
       }
     }
-
-    @media (max-width: 768px) {
-      #container-nav {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-      }
-
-    a {
-      margin: 10px;
-      font-size: 14px;
-    }
-  }
-  
+    
   @media (max-width: 768px) {
     #container-nav {
-      flex-direction: column;
-      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
       gap: 10px;
+      padding: 10px;
     }
 
     a {
-      margin: 10px;
-      font-size: 14px;
+      margin: 5px 10px;
+      font-size: 15px;
     }
 
     #about {
@@ -160,7 +151,8 @@
       width: 90%;
       margin: 30px auto;
     }
- }
+  }
+
     
   </style>
 </head>
@@ -247,7 +239,7 @@
 
     </section>
     <section id="contact">
-      <h2>Contact</h2>
+      <h2>Contact Info</h2>
       <p>Email: <a href="mailto:eldandachi.nour@gmail.com">eldandachi.nour@gmail.com</a></p>
       <p>Phone: +961 76770057</p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/nour-el-dandachi-305930325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">linkedin.com/in/noureldandachi</a></p>
